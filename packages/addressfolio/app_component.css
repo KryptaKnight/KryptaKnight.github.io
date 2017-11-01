@@ -1,0 +1,20 @@
+:host {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #EAEAEA;
+}
+
+.header {
+    width: 100%;
+    background-color: #40403f;
+    color: #F7F7F7;
+    padding: 10px;
+    margin: 0px;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
