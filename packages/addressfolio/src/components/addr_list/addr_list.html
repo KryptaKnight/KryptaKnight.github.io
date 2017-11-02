@@ -1,4 +1,4 @@
-<p *ngIf="addrs.isEmpty">
+<p *ngIf="addrs.isEmpty" class="msg">
   You have no addresses! Add address above.
 </p>
 
@@ -7,7 +7,7 @@
       <li *ngFor="let addr of addrs; let i=index">
         <material-checkbox #done materialTooltip="Select item">
         </material-checkbox>
-        <span>{{addr}}</span>
+        <span class="addr">{{addr}}</span>
         <material-fab mini (trigger)="remove(addr)">
           <glyph icon="delete"></glyph>
         </material-fab>

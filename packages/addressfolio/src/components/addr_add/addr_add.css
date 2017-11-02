@@ -3,24 +3,17 @@
     background-color: white;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+.container {
+    display: flex;
+    align-items: center;
 }
 
-li {
-  line-height: 3em;
+material-input {
+        flex: 1;
+        margin-right: 24px
 }
 
-li:hover {
-  background-color: #EEEEEE;
-}
-
-li material-checkbox {
-  vertical-align: middle;
-}
-
-li material-fab {
-  float: right;
-  vertical-align: middle;
+material-fab {
+    width: 40px;
+    height: 40px;
 }

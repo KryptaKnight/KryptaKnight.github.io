@@ -1,5 +1,3 @@
-<H2 class="header">Your holdings</H2>
-
 <table>
     <thead>
         <tr>
@@ -20,8 +18,6 @@
     </tbody>
 </table>
 
-<div *ngIf="service.holdings.length == 0">
-    <div>
-        No wallets with non-zero balance!
-    </div>
+<div *ngIf="service.holdings.length == 0" class="msg">
+    No wallets with non-zero balance! Add wallet address below.
 </div>
